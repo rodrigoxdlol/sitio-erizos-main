@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/estilo.css" />  <title>INICIO</title>
+</head>
+<body>
+  <header>
+    <a href="index.html">
+      <img src="imagenes/logo erizo.jpg"  alt="Logo Erizo"
+           width="100px"
+           height="100px"
+           class="logo"
+           id="principio" />
+    </a>
+    <nav class="nav">
+      <a href="index.html">INICIO</a>
+      <a href="detalles.html">DETALLES</a>
+      <a href="galeria.html">GALERÍA DE IMÁGENES</a>
+      <a href="contacto.html">CONTACTO</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container-form">
+      <h3>CONTACTO</h3>
+      <form action="https://formsubmit.co/rodrigochavezmonsalvez10@gmail.com" method="POST">
+        <div class="input-group">
+          <label for="name">Nombre</label>
+          <input type="text" name="name" id="name" placeholder="Nombre" style="border-radius: 10px;">
+
+          <label for="email">Correo Electrónico</label>  <input type="email" name="email" id="email" placeholder="Correo Electrónico" style="border-radius: 10px;">
+
+          <label for="date">Fecha de Nacimiento</label>
+          <input type="date" name="date" id="date" placeholder="Fecha de Nacimiento" style="border-radius: 10px;">
+
+          <label for="message">Mensaje</label>
+          <textarea type="message" name="message" id="message" placeholder="(opcional)" style="border-radius: 10px; margin-bottom: 15px; resize: none; overflow: auto;"></textarea>
+
+          <input type="submit" value="Enviar" class="btn-submit" style="border-radius: 10px;">
+        </div>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <p>Rodrigo Chavez &copy; 2024</p>
+  </footer>
+</body>
+</html>
